@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularion de contacto</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
+
+  </head>
+  <body>
+
+
+
+      <section class="form_wrap">
+
+        <section class="cantact_info">
+          <section class="info_title">
+
+    <p><span class="fa fa-user"></span></p>
+      <h2>----------------------</h2>
+<h2>HEALTH <br>CONDITION RECORD</h2>
+  </section>
+
+
+  <section class="info_items">
+    <h2> More Information: </h2>
+    <p><span class="fa fa-envelope "></span> victorlopez73157@gmail.com</p>
+    <h2> Assistance </h2>
+    <p><span class=""></span>📞 +1 (206) 530-7612</p>
+        </section>
+      </section>
+
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>---- Login and record your condition ----</h2>
+            <div class="user_info">
+<label for="names">First and second name:</label>
+<input type="text" id="names" name="nombre" required>
+
+<label for="phone">Telephone / cell number:</label>
+<input type="text" id="phone" name="telefono">
+
+<label for="email">Email:</label>
+<input type="text" id="email" name="correo" required>
+
+<label for="mensaje">Condition description:</label>
+<textarea id="mensaje" name="mensaje" required></textarea>
+
+<input type="submit" value="Send" id=btnSend>
+            </div>
+
+
+
+  </form>
+
+  </section>
+
+  </body>
+</html>
